@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TAPAuctionSiteComponent\TAPAuctionSiteComponentData.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TAP21-22.AlarmClock.Interface">
+      <HintPath>..\TAP21-22.AlarmClock.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="TAP21-22.AuctionSite.Interface">
+      <HintPath>..\TAP21-22.AuctionSite.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
